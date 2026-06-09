@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Vitamin D Levels"}
+  description={"Read Healing Paws Center insights on vitamin d levels and integrative veterinary care."}
+  canonical={"/blog/vitamin-d-levels"}
+>
+  <AstroPage componentName={"VitaminDBlogPost"} route={"/blog/vitamin-d-levels"} client:load />
+</Layout>

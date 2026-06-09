@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Senior Neurologic"}
+  description={"Information about senior neurologic and supportive rehabilitation options for pets at Healing Paws Center."}
+  canonical={"/common-ailments/senior-neurologic"}
+>
+  <AstroPage componentName={"SeniorNeurologicPage"} route={"/common-ailments/senior-neurologic"} client:load />
+</Layout>

@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Treating Pet Allergies Naturally"}
+  description={"Read Healing Paws Center insights on treating pet allergies naturally and integrative veterinary care."}
+  canonical={"/blog/treating-pet-allergies-naturally"}
+>
+  <AstroPage componentName={"PetAllergiesBlogPost"} route={"/blog/treating-pet-allergies-naturally"} client:load />
+</Layout>

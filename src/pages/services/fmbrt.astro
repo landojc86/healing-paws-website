@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Fmbrt"}
+  description={"Learn about fmbrt for pets at Healing Paws Center in Fort Lauderdale."}
+  canonical={"/services/fmbrt"}
+>
+  <AstroPage componentName={"FMBRTPage"} route={"/services/fmbrt"} client:load />
+</Layout>

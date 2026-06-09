@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AstroPage from '../app/AstroPage';
+---
+
+<Layout
+  title={"Store"}
+  description={"Healing Paws Center provides veterinary rehabilitation, physical therapy, and integrative holistic care for pets in Fort Lauderdale."}
+  canonical={"/store"}
+>
+  <AstroPage componentName={"StandaloneStorePage"} route={"/store"} client:load />
+</Layout>

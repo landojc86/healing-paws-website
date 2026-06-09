@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Ozone Therapy"}
+  description={"Learn about ozone therapy for pets at Healing Paws Center in Fort Lauderdale."}
+  canonical={"/services/ozone-therapy"}
+>
+  <AstroPage componentName={"OzoneTherapyPage"} route={"/services/ozone-therapy"} client:load />
+</Layout>

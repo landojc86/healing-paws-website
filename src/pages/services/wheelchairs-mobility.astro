@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Wheelchairs Mobility"}
+  description={"Learn about wheelchairs mobility for pets at Healing Paws Center in Fort Lauderdale."}
+  canonical={"/services/wheelchairs-mobility"}
+>
+  <AstroPage componentName={"WheelchairsMobilityPage"} route={"/services/wheelchairs-mobility"} client:load />
+</Layout>

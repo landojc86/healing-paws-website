@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Spinal Injury"}
+  description={"Information about spinal injury and supportive rehabilitation options for pets at Healing Paws Center."}
+  canonical={"/common-ailments/spinal-injury"}
+>
+  <AstroPage componentName={"SpinalInjuryPage"} route={"/common-ailments/spinal-injury"} client:load />
+</Layout>

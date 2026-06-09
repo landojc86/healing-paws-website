@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AstroPage from '../../app/AstroPage';
+---
+
+<Layout
+  title={"Pet Insurance"}
+  description={"Read Healing Paws Center insights on pet insurance and integrative veterinary care."}
+  canonical={"/blog/pet-insurance"}
+>
+  <AstroPage componentName={"PetInsuranceBlogPost"} route={"/blog/pet-insurance"} client:load />
+</Layout>
